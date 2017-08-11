@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"test01-uart-it-1\stm32f1xx_hal_flash_ex.o"
+"test01-uart-it-1\stm32f1xx_hal_uart.o"
+"test01-uart-it-1\stm32f1xx_hal_dma.o"
+"test01-uart-it-1\stm32f1xx_hal_gpio_ex.o"
+"test01-uart-it-1\stm32f1xx_hal_tim_ex.o"
+"test01-uart-it-1\stm32f1xx_hal_cortex.o"
+"test01-uart-it-1\stm32f1xx_hal_tim.o"
+"test01-uart-it-1\stm32f1xx_hal_rcc_ex.o"
+"test01-uart-it-1\stm32f1xx_hal_pwr.o"
+"test01-uart-it-1\stm32f1xx_hal_gpio.o"
+"test01-uart-it-1\stm32f1xx_hal_rcc.o"
+"test01-uart-it-1\stm32f1xx_hal.o"
+"test01-uart-it-1\stm32f1xx_hal_flash.o"
+"test01-uart-it-1\startup_stm32f103xb.o"
+"test01-uart-it-1\main.o"
+"test01-uart-it-1\stm32f1xx_it.o"
+"test01-uart-it-1\usart.o"
+"test01-uart-it-1\dma.o"
+"test01-uart-it-1\stm32f1xx_hal_msp.o"
+"test01-uart-it-1\gpio.o"
+"test01-uart-it-1\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "test01-uart-it-1\test01-uart-it-1.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "test01-uart-it-1.map" -o test01-uart-it-1\test01-uart-it-1.axf
